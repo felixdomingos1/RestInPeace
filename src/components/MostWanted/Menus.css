@@ -1,0 +1,42 @@
+.MenuItems{
+    width: 26%;
+    height: 65vh;
+    background-color: rgba(211, 211, 211, 0.6);
+    margin-left: 3rem;
+    border-radius: 34px;
+    margin-top: 5rem;
+}
+.MenuItems:first-child{
+    border-radius: 34px 0 34px 0;
+}
+.MenuItems:last-child{
+    border-radius: 0 34px 0  34px;
+}
+.contentPrices{
+    margin-top: 40px;
+    padding-left: 3.5rem;
+}
+.contentPrices span{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    max-width: 100%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.contentPrices .item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+.contentPrices .item img{
+    width: 17rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+.classifications{
+    margin-top: 6rem;
+}

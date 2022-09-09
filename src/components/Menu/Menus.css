@@ -1,0 +1,60 @@
+.MenuItems{
+    width: 26%;
+    height: 65vh;
+    background-color: rgba(211, 211, 211, 0.6);
+    margin-left: 3rem;
+    border-radius: 34px;
+    margin-top: 5rem;
+}
+.MenuItems:first-child{
+    border-radius: 34px 0 34px 0;
+}
+.MenuItems:last-child{
+    border-radius: 0 34px 0  34px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    margin-top: 37px;
+    font-weight: 550;
+    color: white;
+}
+.contentPrice1{
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+.contentPrice1 .items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 3rem;
+    margin-right: 10rem;
+}
+.classifications1{
+    display: flex;
+    margin-top: .5rem;
+}
+.contentPrice1 .items p, span{
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 180px;
+}
+.MenuItems .btn{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: white;
+}
+.lastButton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 1rem;
+    margin-bottom: -40px;
+}

@@ -1,0 +1,19 @@
+.button1{
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: .4rem;
+    border-radius: 30px;
+    border: 1px solid white;
+    justify-content: center;
+    background-color: white;
+    color: rgb(93, 60, 24);
+    margin-right: 2rem;
+    transition: all .3s ease-out;
+}
+.button1:hover{
+    background-color: rgb(93, 60, 24);
+    color: white;
+}

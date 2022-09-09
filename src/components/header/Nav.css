@@ -1,0 +1,23 @@
+
+.nav ul{
+    display: flex;
+    margin-right: 4rem;
+}
+.nav ul li{
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 4rem;
+}
+.Logo{
+    margin-left: 4rem;
+    color: white;
+    font-size: 30px;
+    margin-top: 4rem;
+    font-weight: 600;
+}
+.nav ul li:last-child{
+    margin-left: 5rem;
+}

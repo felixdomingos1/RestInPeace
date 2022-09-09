@@ -1,0 +1,61 @@
+.AboutMain{
+    width: 100%;
+    height: 80vh;
+    margin-top: -2rem;
+}
+.firstContainer{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.firstContainer h1{
+    margin-bottom: 2rem;
+}
+.firstContainer img{
+    width: 42%;
+    margin-left: 4rem;
+    height: 22rem;
+    border-radius:50px;
+
+}
+.contentAbout{
+    margin-right: 4rem;
+    max-width: 36rem;
+}
+.contentAbout p{
+    font-size: 19px;
+    font-weight: 400;
+}
+.contentAbout p:first-child{
+    margin-bottom: 1rem;
+}
+.secondContainer{
+    margin-top: 5rem;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.secondContainer img{
+    width: 42%;
+    margin-right: 4rem;
+    height: 22rem;
+    border-radius:50px;
+}
+.contentAbout2{
+    margin-left: 4rem;
+    max-width: 36rem;
+    font-size: 19px;
+    font-weight: 400;
+}
+.contentAbout2 p:first-child{
+    margin-bottom: 1rem;
+}
+.lastButton.color{
+    color: white;
+}

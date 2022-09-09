@@ -1,0 +1,21 @@
+.info{
+    position: absolute;
+    width: 100%;
+    height: 10rem;
+    top:18rem;
+    display: flex;
+    justify-content: center;
+}
+.info .content{
+    font-size: 40px;
+    color: white;
+}
+.buttons{
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 550;
+    width:70%;
+    display: flex;
+    margin-top: 1.3rem;
+    margin-left: 8rem;
+}
